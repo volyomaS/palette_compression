@@ -10,7 +10,7 @@ from sklearn.cluster import DBSCAN
 if __name__ == "__main__":
     # arguments parse
     parser = argparse.ArgumentParser()
-    parser.add_argument('filepath', nargs='?', default='4.jpg')
+    parser.add_argument('filepath', nargs='?', default='imgs/4.jpg')
     parser.add_argument('pcount', nargs='?', default='2')
     parser.add_argument('dbscan', nargs='?', default='no')
     args = parser.parse_args(sys.argv[1:])
